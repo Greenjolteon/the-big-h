@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML notes</title>
+    </head>
+    <body>
+        <h1>HTML notes</h1>
+        
+        <p>Markup</p>
+
+        <p> -A <em>markup</em> is how you put character so that they do something.</p>
+
+        <h2>Graphic Elements</h2>
+
+        -<mark>Highlighter</mark><br>
+        -<sub>Subscript</sub><br>
+        -<sup>Superscript</sup>
+        <hr>
+        <h3>Nested elements</h3><br>
+            -Elements can go inside other elements<br>
+            -Example: "em" inside of a "p".<br>
+            -You can't put a "p" inside of another "p".<br>
+            <em><sup>Elements can't overlap</sup></em><br>
+            <em>This <sup>would be </sup>correct</em><br>
+            <sup>This <em>would also be </em>correct</sup><br>
+
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <hr>
+        <h3>Block and Inline Elements</h3>
+            <h4>Block Elements</h4>
+                <p>Block elements make an invisible block around themselves. This box has a height, width, and margins above/below it.</p>
+                <p>Examples include:p, ol, ul, h1-6, video, div, table.</p>
+                <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#Elements">https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#Elements</a>
+            <h4>Inline Elements</h4>
+                <p>Inline elements don't create a box around themselves.</p>
+                <p>Examples include:br, em, strong, mark, a, img, span.</p>
+                <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements#Elements">https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements#Elements</a>
+        <hr>
+
+        <h2>div Element</h2><br>
+        <p>div is used to divide the page into sections</p>
+
+        <h2>Lists</h2>
+        <ol>
+            <li>This is an example of an <strong>ordered list</strong></li>
+            <li>It has number, so that there is a specific order</li>
+            <li>An ending li isn't needed, because it only goes in lists. Neither does 'p' element.
+            <li>When you leave off a closing tab, the browser knows that if the next line has li, it is a new item on the list</li>
+        </ol>
+
+        <ul>
+            <li>This is an example of an <strong>unordered list</strong></li>
+            <li>It uses bullet points, so there isn't a specific order.</li>
+        </ul>
+
+        <h4>Nested list example:</h4>
+        <br>
+        <ul>
+            <li>Best Letters:</li>
+            <li>     H</li>
+            <li>     W</li>
+            <li>     G</li>
+        </ul>
+        <p>Best Animals</p>
+            <ol>
+                <li>Giraffes</li>
+                <li>Toucans</li>
+                <li>Kangaroos</li>
+            </ol>
+
+        <h2>The "a" and "img" Elements</h2>
+
+        <ol>
+            <li>"a":</li>
+            <li>The a stands for anchor</li>
+            <li>A full element looks like:</li>
+            <li>"a href="(Website URL)"> Name of URL /a" </li>
+            <li>"<a href=file:///Users/gilad/Desktop/dev/project1/notes.html> Notes </a>"</li>
+        </ol>
+        <ol>       
+            <li>"img"</li>
+            <li>"img src="(Image URL)"> alt="Name of Image""</li>
+        </ol>
+
+        <h2>Files and Relative URLs</h2>
+
+        <p>File doesn't have to be on a server. It can be on the same computer as the code.</p>
+        <p>Instead, write "img src="(ImageName.jpg)" alt="Name of Image"". This is called a <strong>Relative URL.</strong></p>
+        <img src="https://placebear.com/800/600" alt="Bear">
+
+        <h2>DOCTYPE Tag</h2>
+        <p>Tells the browser what type of HTML the code is written in.</p>
+        <p>Looks like: "!DOCTYPE html".</p>
+        <p>It goes on top of every HTML document.</p>
+
+        <h2>Head and Body Elements</h2>
+        <p>The body "body" contains all of the stuff that would be put into a regular HTML code.</p>
+        <p>The head "head" contains pieces of important information about the code. The only required part is the title of the document, and it is put in as a "title" element. Style information is also put in here.</p>
+        <p>Both are in "html".</p>
+    </body>
+</html>
